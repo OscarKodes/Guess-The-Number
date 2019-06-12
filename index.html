@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guess The Number</title>
+
+	<!-- FontAwesome Stylesheet -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<h1 class="title">Guess The Number</h1>
+
+	<table class="game-container">
+		<tr>
+
+			<td>
+			
+				<input id="user-num" type="text" name="guessed-num" placeholder="---">
+				<br>
+				<input class="submit-button" type="submit" name="">
+
+				<div class="directions">
+					<ul>
+						<li>Enter a number between 1 and 100.</li>
+						<li>Click submit.</li>
+						<li>If the number was wrong, guess again.</li>
+					</ul>
+				</div>
+
+			</td>
+
+			<td>
+				<div class="num-log-container">
+					<div class="num-log">
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+						<p>---</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+
+	<div class="footer">
+		
+		<a class="git-icon" href="https://github.com/OscarKodes">
+			<i class="fab fa-github fa-3x"></i>
+		</a>
+
+		<p class="copyright">© Oscar Ko 2019</p>
+	</div>
+	
+</body>
+<footer>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Javscript Local -->
+	<script type="text/javascript" src="game.js"></script>
+</footer>
+</html>
